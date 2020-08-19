@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Deza.DataAccess\Deza.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Deza.Stone">
+      <HintPath>..\..\Deza.Stone\Deza.Stone\bin\Debug\netstandard2.0\Deza.Stone.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿@model List<Deza.Models.ViewModels.ProductVM>
+
+<h2>Product List</h2>
+<table>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.ProductId</td>
+            <td>@product.ProductName</td>
+            <td>
+                <a asp-controller="Product" asp-action="Detail" asp-route-productid="@product.ProductId">Detail</a>
+            </td>
+        </tr>
+    }
+</table>
