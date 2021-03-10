@@ -1,4 +1,4 @@
-﻿using Deza.Stone.Entities.Abstract;
+﻿using Deza.Stone;
 using System;
 using System.Collections.Generic;
 using System.Text;
